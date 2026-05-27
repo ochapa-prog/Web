@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Tacos El Sabor</title>
+
+  <style>
+
+    body{
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff3e0;
+      text-align: center;
+    }
+
+    header{
+      background-color: #d62828;
+      color: white;
+      padding: 30px;
+    }
+
+    nav{
+      background-color: #f77f00;
+      padding: 15px;
+    }
+
+    nav a{
+      color: white;
+      text-decoration: none;
+      margin: 15px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .contenido{
+      padding: 30px;
+    }
+
+    h2{
+      color: #d62828;
+    }
+
+    p{
+      font-size: 18px;
+      color: #333;
+      width: 80%;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    img{
+      width: 320px;
+      border-radius: 15px;
+      margin-top: 20px;
+      box-shadow: 0px 5px 12px rgba(0,0,0,0.3);
+    }
+
+    .menu{
+      background-color: white;
+      width: 80%;
+      margin: 40px auto;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    ul{
+      list-style: none;
+      padding: 0;
+    }
+
+    li{
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    button{
+      background-color: #d62828;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    button:hover{
+      background-color: #9d0208;
+    }
+
+    footer{
+      background-color: #f77f00;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <h1>🌮 TACOS EL SABOR 🌮</h1>
+
+    <p>
+      ¡Los tacos más deliciosos de Guayaquil!
+    </p>
+
+  </header>
+
+  <nav>
+
+    <a href="#">Inicio</a>
+    <a href="#">Menú</a>
+    <a href="#">Promociones</a>
+    <a href="#">Contacto</a>
+
+  </nav>
+
+  <div class="contenido">
+
+    <h2>Bienvenidos</h2>
+
+    <p>
+      En Tacos El Sabor ofrecemos tacos preparados con ingredientes frescos,
+      tortillas calientes y auténtico sabor mexicano.
+      Disfruta nuestros tacos de carne, pollo y pastor acompañados
+      de deliciosas salsas y bebidas refrescantes.
+    </p>
+
+    <img src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?q=80&w=1200&auto=format&fit=crop" alt="Tacos mexicanos">
+
+    <div class="menu">
+
+      <h2>🌮 Nuestro Menú 🌮</h2>
+
+      <ul>
+
+        <li>🌮 Taco de Carne - $2.50</li>
+        <li>🌮 Taco de Pollo - $2.00</li>
+        <li>🌮 Taco al Pastor - $3.00</li>
+        <li>🧀 Quesadilla Especial - $4.00</li>
+        <li>🥤 Bebidas - $1.50</li>
+
+      </ul>
+
+    </div>
+
+    <button onclick="mostrarPromo()">
+      Ver Promoción
+    </button>
+
+  </div>
+
+  <footer>
+
+    <p>
+      📍 Guayaquil, Ecuador | 📞 0999999999
+    </p>
+
+  </footer>
+
+  <script>
+
+    function mostrarPromo(){
+
+      alert("🎉 PROMOCIÓN: Compra 3 tacos y recibe una bebida GRATIS 🎉");
+
+    }
+
+  </script>
+
+</body>
+</html>
